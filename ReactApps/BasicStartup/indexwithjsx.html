@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <title>React *</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <span>Normal html text below =></span>
+    <h1>Gettting started with React</h1>
+    <script type="text/javascript">
+      ReactDOM.render(
+        /*#__PURE__*/ React.createElement(
+          "ul",
+          null,
+          /*#__PURE__*/ React.createElement("li", null, "\uD83D\uDE02"),
+          /*#__PURE__*/ React.createElement("li", null, "\u2714"),
+          /*#__PURE__*/ React.createElement("li", null, "\uD83D\uDE0A")
+        ),
+        document.getElementById("root")
+      );
+    </script>
+  </body>
+</html>
